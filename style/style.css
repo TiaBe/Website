@@ -34,15 +34,14 @@
     background: -o-linear-gradient(transparent, transparent);
     -webkit-background-clip: text;
 }
-
-<style>
+/*
 body {
-  background-image: url('../images/D5P Icon.jpg');
+  background-image: url('logo1.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-</style>
+}*/
+
 
 * {box-sizing: border-box}
 /* Full-width input fields */
