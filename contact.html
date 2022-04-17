@@ -9,21 +9,22 @@
          
          <link rel="stylesheet" href="style/style.css/">
     </head>
-    <body>
+    <body style="background-color:black;">
         <div id="container" class="container">
 
             <div id="nav">
+                <a href="index.html"><img src="Images/D5P Logo.png" width=100/></a>|
                 <a href="index.html">Home</a> |
                 <a href="about.html">About Us</a> |
                 <a href="contact.html">Contact Us</a>
             </div>
             <div id="content">
 
-                <h1>Contact Us</h1> 
+                <h1 style="color: purple;">Contact Us</h1> 
        
 
-    <address>
-        Written by <a href="mailto:productionsdouble05@gmail.com">Double5 Productions</a>.<br>
+    <address style="color: goldenrod;">
+        Written by <a href="mailto:productionsdouble05@gmail.com">Double5 Productions</a><br>
         Visit us at:<br>
         double5productions.com<br>
         53 Seaview Gardens<br>
@@ -36,46 +37,44 @@
 
        
       <form action="success.html">
-          <label for="fname">Full Name</label> <br/>
-          <input type="text" class="form-control" id="fname"name="fname"/>
+          <label for="fname" style="color: purple;"><h4>Full Name</h4></label><br/>
+          <input type="text" class="form-control" id="fname"name="fname" placeholder="John Brown" style="background-color: #f2e4ab;"/>
           <br/><br/>
-          <label for="email">Email Address</label> <br/>
-          <input type="email" class="form-control" id="emailaddress" name="emailaddress"/>
+          <label for="email" style="color: purple;"> <h4>Email Address</h4></label> <br/>
+          <input type="email" class="form-control" id="emailaddress" name="emailaddress" placeholder="henry@gmail.com"style="background-color: #f2e4ab;"/>
           <br/><br/>
           <br>
-          <label for="phone">Contact Number</label> <br>
-          <input type="tel" class="form-control" id="phone" name="phone" placeholder="888-888-8888"
+          <label for="phone" style="color: purple;"><h4>Contact Number</h4></label> <br>
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="888-888-8888" style="background-color: #f2e4ab;"
           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
           <br/>
-          <label for="query">Query</label> <br/>
-          <textarea id="query" name="query"></textarea>
+          <label for="query" style="color: purple;"><h4>Query</h4></label> <br/>
+          <textarea id="query" name="query" class="form-control" style="background-color: #f2e4ab;"></textarea>
           <br/>
           <div class="d-grid gap-2">
-            <input type="submit" class="btn btn-success btn-block" value="Submit Your Query" 
+            <input type="submit" class="btn btn-warning btn-block" value="Submit Your Query" 
             onclick="buttonClicked()" />
           </div>
          
       </form> 
-
-            </div>
-            <div id="footer">Footer</div>
-
-        </div>
-               
-
-       <!-- JavaScript Bundle with Popper -->
+       
+     
+    <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
     crossorigin="anonymous"></script>
 
-    <br>
-    <!--social media logo-->
- <a href="https://www.facebook.com/"; class="fa fa-facebook";></a>
- <a href="https://twitter.com/?lang=en" ; class="fa fa-twitter";></a>
- <a href="https://www.instagram.com/" ; class="fa fa-instagram";></a>
- <br>
- <footer class="container">
-   <p>© Double5 Productions 2022</p>
- </footer>
+     
+    
+<footer class="container">
+  <p style="color: blueviolet;">© Double5 Productions 2022</p>
+
+  <br>
+  <!--social media logo-->
+  <a href="https://www.facebook.com/Double5Productions/"><img src="Images/facebook.png" style="height: 30px;"/></a>
+  <a href="https://twitter.com/d5_productions"><img src="Images/twitter.png" style="height: 30px;"/></a>
+  <a href="https://www.instagram.com/double5_productions/?hl=en"><img src="Images/instagram.png" style="height: 30px;"/></a>
+<br>
+</footer>
     </body>
 </html>

@@ -12,4 +12,3 @@ function initSwitcher(){
   } 
 } 
  
-initSwitcher(); 
